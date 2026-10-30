@@ -1,0 +1,37 @@
+:root {
+  --brand: #18a957;
+  --brand-dark: #0e7a3e;
+  --brand-soft: #e6f6ec;
+  --brand-ink: #0c3c24;
+  --accent: #ff7a1a;
+  --accent-soft: #fff0e3;
+  --ink: #10231a;
+  --body: #40524a;
+  --muted: #6b7c74;
+  --faint: #95a29b;
+  --bg: #f4f7f4;
+  --card: #ffffff;
+  --line: #e1e8df;
+  --line-strong: #d2ddd2;
+  --warn: #b45309;
+  --warn-soft: #fef3c7;
+  --danger: #c2410c;
+  --danger-soft: #ffedd5;
+  --info: #0369a1;
+  --info-soft: #e0f2fe;
+  --purple: #6d4aff;
+  --purple-soft: #efeafe;
+  --shadow-sm: 0 1px 2px rgba(16, 35, 26, 0.04);
+  --shadow-md: 0 10px 30px rgba(16, 35, 26, 0.07);
+  --shadow-lg: 0 24px 60px rgba(16, 35, 26, 0.14);
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --font-sans: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-number: 'SF Pro Display', 'DIN Alternate', 'PingFang SC', system-ui, sans-serif;
+  --header-h: 66px;
+  --strip-h: 30px;
+  --bottom-h: 64px;
+  --maxw: 1240px;
+}

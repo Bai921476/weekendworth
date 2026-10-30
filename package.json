@@ -1,0 +1,33 @@
+{
+  "name": "weekendworth",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "周末职得 · 大学生周末兼职撮合演示",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --configLoader native",
+    "build": "tsc --noEmit && vite build --configLoader native",
+    "build:ci": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --configLoader native",
+    "check": "tsc --noEmit",
+    "smoke": "tsx scripts/dom-smoke.tsx"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "dependencies": {
+    "lucide-react": "^1.64.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "jsdom": "^30.1.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5"
+  }
+}
